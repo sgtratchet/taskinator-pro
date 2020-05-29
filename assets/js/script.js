@@ -13,7 +13,7 @@ console.log(currentTime);
 $('saveBtn').click(function(){
     $('#9am').html();
     localStorage.setItem("task", textArea);
-    console.log(task)
+    console.log(task);
 })
 
 //local storage to be linked to appropriate time slot
